@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Mogra&display=swap');
+.mogra-regular {
+  font-family: "Mogra", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.h1,h2,h3,h4{
+	font-family: "Mogra", system-ui;}
+header{
+	width: 100%;height: 60px; background-color:deepskyblue; border-bottom: 1px solid #023E77;
+}
+.menu ul{
+	margin: 0; padding: 0; list-style: none; display: flex
+}
+.menu{
+	padding-top: 18px
+}
+.menu ul li a{
+	padding: 10px 20px; text-decoration: none; font-size: 17px; text-transform: uppercase; color:white; border-radius: 20px
+}
+.menu ul li a:hover{
+	background-color: darkblue; color: white
+}
+/*phan carousel*/
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: royalblue
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:red;
+      text-decoration: none; }
+aside{
+	width: 100%;min-height: 300px
+}
+main{
+	width: 100%; min-height: 300px
+}
+.text-do{
+	color: royalblue
+}
+aside ul{
+	margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column
+}
+aside ul li{
+	border-bottom: 1px solid #9200FF
+}
+aside ul li a{
+	text-decoration: none; padding: 10px; display: block; color: black
+}
+aside ul li a:hover{
+	background-color: blue; color: white
+}
+.text-center{
+	text-align: center
+}
+footer{
+	width: 100%; min-height: 300px; background-color: deepskyblue
+}
+footer a{
+	text-decoration: none; color: black
+}
+footer a :hover{
+	color: blue
+}
+.bg-xanh{
+	background-color: cornflowerblue
+}
+.bg-xanh ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.bg-xanh ul li a:hover {
+  color: blue;
+  text-decoration: none; /* không gạch chân khi hover */
+}
+
+
+footer ul{
+	margin: 0;padding: 0; list-style: none; display: flex; flex-direction: column
+}
+footer ul li a{
+	display: block;padding: 10px; color: white
+}
+.text-den{
+	color: black
+}
